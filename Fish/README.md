@@ -14,3 +14,19 @@ helpf .......... help document for Fish
 helpv .......... help document for Vim      
 helpt .......... help document for Tmux     
 helpv .......... help document for Nvim     
+
+
+
+
+
+
+
+
+
+
+
+### Add new path        
+set -U fish_user_paths <your-path-add> $fish_user_paths     
+
+EX:     
+set -U fish_user_paths /usr/local/bin $fish_user_paths
