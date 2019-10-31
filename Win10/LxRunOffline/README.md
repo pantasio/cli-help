@@ -12,4 +12,8 @@ i                   Install distribution
 
 ## Uninstall
 
+## Move  
+```
+lxrunoffline m -n [distro-name you got from lxrunoffline list] -d [where you want the distro to go]  
+```
 
