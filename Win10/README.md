@@ -18,7 +18,10 @@ wsl --set-default-version 2
 ```
 ## Install Ubuntu 18.04 in windows store
 
-
+## Install LxRunOffline
+```
+choco install lxrunoffline
+```
 
 ### Add new PATH
 $env:Path += ";C:\Program Files\GnuWin32\bin"
