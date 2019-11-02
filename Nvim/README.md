@@ -12,7 +12,6 @@ https://kipalog.com/posts/Di-cu-tu-Sublime-Text-sang-VIM
 <leader>rv  ------- :reload init.vim        
 
 
-
 o       thêm 1 hàng bên dưới con trỏ và ở Insert mode       
 O       thêm 1 hàng bên trên con trỏ và ở Insert mode       
        
