@@ -1,3 +1,8 @@
+### Autocomple Fish
+run this command in fish to pull autocomple
+```
+fish_update_completions
+```
 Key bind in fish
 
 Ctrl a + shift r reload config.fish
