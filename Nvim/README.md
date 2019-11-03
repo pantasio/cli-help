@@ -8,6 +8,8 @@ https://kipalog.com/posts/Di-cu-tu-Sublime-Text-sang-VIM
 <leader>  ------- :     
 
 <leader>n   ------- :NERDTreeToggle     
+<leader>f   ------- :NERDTreeFind
+
 <leader>ev  ------- :edit init.vim      
 <leader>rv  ------- :reload init.vim        
 
