@@ -11,6 +11,8 @@ https://kipalog.com/posts/Di-cu-tu-Sublime-Text-sang-VIM
 <leader>ev  ------- :edit init.vim      
 <leader>rv  ------- :reload init.vim        
 
+F5          ------- :UndotreeToggle     
+F8          ------- :TagbarToggle    sudo apt-get install exuberant-ctags  https://jdhao.github.io/2019/10/15/tagbar_markdown_setup
 
 o       thêm 1 hàng bên dưới con trỏ và ở Insert mode       
 O       thêm 1 hàng bên trên con trỏ và ở Insert mode       
