@@ -75,16 +75,6 @@ Ctrl+b <command>
 bind | split-window -h
 bind - split-window -v
 
-# Make a pane its own window
-Ctrl-b : "break-pane"
-
-
-ps aux | grep htop                      check session dang chay
-
-
-
-
-See all tmux & screen cheat-sheet
 http://www.dayid.org/comp/tm.html
 #################################
 
@@ -119,15 +109,15 @@ Ctrl+b  0-9                                 To select window
 
 Tmux also allows you to resize panes as you like, follow these commands:  
 KeyBind + Combination Key                   Action Description  
-Ctrl+b  :resize-pane                                Resize current pane down by default  
-Ctrl+b  :resize-pane -U                         Upward Resize current pane  
-Ctrl+b  :resize-pane -R                         Resize current pane to right  
-Ctrl+b  :resize-pane -L                         Resize current pane to left  
-Ctrl+b  :resize-pane 40                         Resize current pane down by 40 cells  
+Ctrl+b  :resize-pane                        Resize current pane down by default  
+Ctrl+b  :resize-pane -U                     Upward Resize current pane  
+Ctrl+b  :resize-pane -R                     Resize current pane to right  
+Ctrl+b  :resize-pane -L                     Resize current pane to left  
+Ctrl+b  :resize-pane 40                     Resize current pane down by 40 cells  
 Ctrl+b  :resize-pane -L 40                  Resize current pane left by 40 cells  
 Ctrl+b  :resize-pane -R 40                  Resize current pane right by 40 cells  
 Ctrl+b  :resize-pane -U 40                  Resize current pane upward by 40 cells  
-Ctrl+b  :resize-pane -t -L 40           Resize pane with id of 2 left by 40 cells  
+Ctrl+b  :resize-pane -t -L 40               Resize pane with id of 2 left by 40 cells  
 Ctrl+b  :resize-pane -t 2 40                Resize pane with id of 2 down by 40 cells  
 
 
