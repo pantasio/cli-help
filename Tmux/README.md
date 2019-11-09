@@ -13,11 +13,14 @@ Our prefix/leader key is Control + a now (just like the screen multiplexer). Thi
 
 Control + a before any command
 Control + a then ? to bring up list of keyboard shortcuts
-Control + a then " to split window
 Control + a then <Space> to change pane arrangement
 Control + a then o to rotate panes
 Control + a then h, j, k, l to move left, down, up, right. Respectively. (vim hjkl)
 Control + a then ; to go to last panel
+
+<!-- 
+    Window
+-->
 Beyond your first window:
 
 Control + a then c to create a new window
@@ -41,32 +44,32 @@ Ctrl+b <command>
 <command>
 [phan window}
 
-        Ctrl+a c                                            New window
-        Ctrl+a , {dau phay}                             Dat ten window
-        Ctrl+a l                                                    go to last-active window 
-        Ctrl+a p                                            chuyen toi cua so trc
-        Ctrl+a n                                                chuyen toi cua so sau
-        Ctrl+a w                                                    List window
-        Ctrl+d                                                      exit current shell/window   
-        Ctrl-a &                                                    Kill the current window
-        Ctrl-a window number                            (Move to the specified window number,the default bindings are from 0 -- 9)
+        Ctrl+a c                               New window
+        Ctrl+a , {dau phay}                    Dat ten window
+        Ctrl+a l                               go to last-active window 
+        Ctrl+a p                               chuyen toi cua so trc
+        Ctrl+a n                               chuyen toi cua so sau
+        Ctrl+a w                               List window
+        Ctrl+d                                 exit current shell/window   
+        Ctrl-a &                               Kill the current window
+        Ctrl-a window number                   (Move to the specified window number,the default bindings are from 0 -- 9)
 
 [panel]
-        Ctrl+a %                                                    dua panel theo chieu ngang
-        Ctrl+a : split-window                   dua panel theo chieu doc
-        Ctrl+a "                                                    dua panel theo chieu doc    
-        Ctrl-a q                                                    Show pane numbers (used to switch between panes)
-        Ctrl-a o                                                    Switch to the next pane
-        Ctrl-a ?                                                    List all keybindings
-        Ctrl-a {                                                    (Move the current pane left)
-        Ctrl-a }                                                    (Move the current pane right)
+        Ctrl+a %                               dua panel theo chieu ngang
+        Ctrl+a : split-window                  Dua panel theo chieu doc
+        Ctrl+a "                               Dua panel theo chieu doc    
+        Ctrl-a q                               Show pane numbers (used to switch between panes)
+        Ctrl-a o                               Switch to the next pane
+        Ctrl-a ?                               List all keybindings
+        Ctrl-a {                               (Move the current pane left)
+        Ctrl-a }                               (Move the current pane right)
 
 [new session]
-        tmux new -s session-name                    start a new session with Name
-        Ctrl+a d                                                    detach from currently attached session 
-        tmux ls                                                     List session
-        tmux attach -t session-name             re-attach a detached session 
-        tmux kill-session -t session-name
+        tmux new -s session-name               start a new session with Name
+        Ctrl+a d                               detach from currently attached session 
+        tmux ls                                List session
+        tmux attach -t session-name            re-attach a detached session 
+        tmux kill-session -t session-name       
 
 # add to ~/.tmux.conf
 bind | split-window -h
