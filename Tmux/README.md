@@ -53,6 +53,10 @@ Ctrl+b <command>
         Ctrl+d                                 exit current shell/window   
         Ctrl-a &                               Kill the current window
         Ctrl-a window number                   (Move to the specified window number,the default bindings are from 0 -- 9)
+        Ctrl-a .                               di chuyen window hien den so moi
+        
+        :movew<CR>                             move window to the next unused number
+        :swap-window -s 3 -t 1                 Swap window 3 cho window 1
 
 [panel]
         Ctrl+a %                               dua panel theo chieu ngang
