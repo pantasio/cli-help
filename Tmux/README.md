@@ -71,6 +71,7 @@ Ctrl+b <command>
         tmux attach -t session-name            re-attach a detached session 
         tmux kill-session -t session-name       
         Ctrl+a :kill-session
+        Ctrl+a :rename-session <name-session>  Rename session
 
 # add to ~/.tmux.conf
 bind | split-window -h
@@ -146,4 +147,8 @@ Ctrl+a  :only                   Remove all panes except one
 Ctrl+a  \                       To close all panes and exit screen   
 Ctrl+a  :resize 40              Resize pane by 40 cells  
 Ctrl+a  p                       Move to next process pane  
-Ctrl+a  n                       Move to previous process pane  
+Ctrl+a  n                       Move to previous process pane
+
+
+
+
