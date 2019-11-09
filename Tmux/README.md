@@ -1,4 +1,5 @@
-all cli script working with Linux
+# How to use Tmux like hacker
+
 After update .tmux.conf
 Update config:
 tmux source-file ~/.tmux.conf
@@ -33,8 +34,7 @@ Custom:
 Control + a then m to switch to main-horizontal layout with the main window at 60% height.
 
 
-
-#######################################################################
+<!-- ####################################################################### -->
 
 read this https://danielmiessler.com/study/tmux/
 see video demo https://www.youtube.com/watch?v=BHhA_ZKjyxo
