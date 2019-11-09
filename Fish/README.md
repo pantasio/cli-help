@@ -1,3 +1,13 @@
+<!--  this is some usefull commend.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+set tabstop=4                       " ┐
+set softtabstop=4                   " │ Set global <TAB> settings.
+set shiftwidth=4                    " │
+set expandtab                       " ┘
+
+-->
+
 ### Autocomple Fish
 run this command in fish to pull autocomple
 ```
@@ -20,7 +30,7 @@ helpv .......... help document for Vim
 helpt .......... help document for Tmux     
 helpv .......... help document for Nvim     
 
-
+addeditorconfig  add .editorconfig to new project
 
 
 

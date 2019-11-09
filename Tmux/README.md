@@ -70,6 +70,7 @@ Ctrl+b <command>
         tmux ls                                List session
         tmux attach -t session-name            re-attach a detached session 
         tmux kill-session -t session-name       
+        Ctrl+a :kill-session
 
 # add to ~/.tmux.conf
 bind | split-window -h
