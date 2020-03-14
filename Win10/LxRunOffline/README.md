@@ -11,7 +11,7 @@ LxRunOffline l
 ## Install distribution  
 
 ```
-LxRunOffline.exe i -n ubuntuAlpha -d D:\Runing-WSL\UbuntuAlpha -f D:\ISO\WSL\ubuntu-18.04-server-cloudimg-amd64-root-20191021.tar.xz -s  
+$ LxRunOffline.exe i -n ubuntuAlpha -d D:\Runing-WSL\UbuntuAlpha -f D:\ISO\WSL\ubuntu-18.04-server-cloudimg-amd64-root-20191021.tar.xz -s  
 ```
 
 i                   Install distro  
@@ -19,6 +19,12 @@ i                   Install distro
 -d D:\Runing-WSL\UbuntuAlpha        Save distro location  
 -f D:\ISO\WSL\ubuntu-18.04-server-[longname].tar.xz     Where image to install  
 -s      create shortcut to desktop  
+
+## Run distribution
+$ LxRunOffline l
+list of wsl name
+
+$ LxRunOffline r -n ubuntuAlpha
 
 ## Uninstall  
 
