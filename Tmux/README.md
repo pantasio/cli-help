@@ -5,6 +5,7 @@ Update config:
 tmux source-file ~/.tmux.conf
 
 <bind-key> Control + a 
+
 v split-window -h
 b split-window
 o Switch to the next pane
@@ -39,7 +40,7 @@ Control + a then m to switch to main-horizontal layout with the main window at 6
 read this https://danielmiessler.com/study/tmux/
 see video demo https://www.youtube.com/watch?v=BHhA_ZKjyxo
 
-Ctrl+b <command>
+Ctrl+a <command>
 
 <command>
 [phan window}
