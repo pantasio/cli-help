@@ -68,6 +68,8 @@ Ctrl+a <command>
         Ctrl-a ?                               List all keybindings
         Ctrl-a {                               (Move the current pane left)
         Ctrl-a }                               (Move the current pane right)
+        
+        Ctrl-a z                               Zoom in or zoom out panel
 
 [new session]
         tmux new -s session-name               start a new session with Name
