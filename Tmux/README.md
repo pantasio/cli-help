@@ -79,6 +79,8 @@ Ctrl+a <command>
         tmux kill-session -t session-name       
         Ctrl+a :kill-session
         Ctrl+a :rename-session <name-session>  Rename session
+        tmux kill-server                       To kill all sessions, from the local terminal, we run the following command. 
+
 
 # add to ~/.tmux.conf
 bind | split-window -h
@@ -156,6 +158,46 @@ Ctrl+a  :resize 40              Resize pane by 40 cells
 Ctrl+a  p                       Move to next process pane  
 Ctrl+a  n                       Move to previous process pane
 
+#########################################################################
+
+Tmux Plugin Manager  
+more info https://github.com/tmux-plugins/tpm
 
 
+Installing plugins
+Press prefix + I (capital i, as in Install) to fetch the plugin.
 
+
+Uninstalling plugins
+Remove (or comment out) plugin from the list.
+Press prefix + alt + u (lowercase u as in uninstall) to remove the plugin.
+All the plugins are installed to ~/.config/tmux/plugins/ so alternatively you can find plugin directory there and remove it.
+
+
+Key bindings
+
+prefix + I
+Installs new plugins from GitHub or any other git repository
+Refreshes TMUX environment
+
+
+prefix + U
+updates plugin(s)
+
+
+prefix + alt + u
+remove/uninstall plugins not on the plugin list
+
+
+#########################################################################
+
+# Save and Restore Tmux Environment
+
+To save the Tmux environment, we hit Ctrl + a + Ctrl + s in the Tmux Terminal. If the save was successful, a message of Tmux environment saved! would pop up.
+
+
+To restore the Tmux environment, we hit Ctrl + a + Ctrl + r in the Tmux Terminal. If the restore was successful, a message of Tmux restore complete! would pop up.
+
+
+All the sessions, windows, and panels would be saved and restored with Tmux Resurrect. Some of the running commands, such as htop, would be restored as well.
+#########################################################################
