@@ -38,6 +38,13 @@ id
 Now setting user login when we start WSL  
 LxRunOffline su -n [Ubuntu-name-of-WSL] -v [UID]  
 
+example:  
+adduser bungbu  
+gpasswd -a bungbu sudo  
+
+login bungbu  
+id  
+LxRunOffline su -n ubuntuAlpha -v 1000   
 
 ## Uninstall  
 
