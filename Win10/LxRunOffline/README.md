@@ -67,3 +67,55 @@ export registry at
 ```
 LxRunOffline ec -n Ubunto -f Ubuntu.xml
 ```
+
+#''''''''''''''''''''''''''''''''''''''''
+# BACKUP WSL
+#''''''''''''''''''''''''''''''''''''''''
+
+#The WSL must be stopped so no open shells for that specific WSL that we will backup.
+PS C:\wsl> .\LxRunOffline.exe export -n Ubuntu -f c:/tmp/Ubuntu.tar.gz
+                                           |                |
+                                           |                |____________ Location of your backup
+                                           |
+                                           |_____________________________ Name of WSL that you wanna backup, USE 'LxRunOffline -l' to know name
+
+
+#''''''''''''''''''''''''''''''''''''''''
+# INSTALL MULTI WSL or RESTORE
+#''''''''''''''''''''''''''''''''''''''''
+
+PS C:\wsl> .\LxRunOffline.exe install -n ubuntu1 -d C:\wsl\ubuntu1 -f d:\bkp\Ubuntu.tar.gz
+                                             |            |                       |
+                                             |            |                       |________________ location and name of your WSL backup
+                                             |            |  
+                                             |            |_________________ Install when location is new, Restore when location is the same
+                                             |
+                                             |_______________ Name of new WSL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
