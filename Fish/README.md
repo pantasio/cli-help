@@ -32,7 +32,7 @@ helpv .......... help document for Nvim
 
 addeditorconfig  add .editorconfig to new project
 
-
+chpwd .......... goto home dir and list file
 
 
 
