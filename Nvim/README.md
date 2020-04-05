@@ -7,7 +7,7 @@ all cli script working with Linux
 
 <leader>  ------- :     
 
-F2          ------- :UndotreeToggle     
+<leader>t   ------- :UndotreeToggle     
 <leader>n   ------- :NERDTreeFocus     
 <leader>f   ------- :NERDTreeFind
 
@@ -24,7 +24,6 @@ O           thêm 1 hàng bên trên con trỏ và ở Insert mode
 
 u           undo last change
 Ctrl-r      redo changes
-
 
 ## Copy, cut and paste 
 <!--  More Info https://vim.fandom.com/wiki/Copy,_cut_and_paste     -->
