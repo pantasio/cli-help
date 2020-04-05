@@ -2,7 +2,7 @@
 ## Graph your Vim undo tree in style.
 More info [UndoTree]{https://github.com/mbbill/undotree}
 
-<F5>            :UndotreeToggle
+<leader>t       :UndotreeToggle
 <leader>u       :UndotreeFocus
 
 s           saved changes
