@@ -14,17 +14,17 @@ LxRunOffline l
 $ LxRunOffline.exe i -n ubuntuAlpha -d D:\Runing-WSL\UbuntuAlpha -f D:\ISO\WSL\ubuntu-18.04-server-cloudimg-amd64-root-20191021.tar.xz -s  
 ```
 
-i                   Install distro  
--n ubuntuAlpha      Name of distro  
--d D:\Runing-WSL\UbuntuAlpha        Save distro location  
--f D:\ISO\WSL\ubuntu-18.04-server-[longname].tar.xz     Where image to install  
--s      create shortcut to desktop  
+i   Install distro  
+-n  ubuntuAlpha     <Name-of-distro>  
+-d  D:\Runing-WSL\UbuntuAlpha       #Save distro location - Dont need create first - Dont need "\" at the end
+-f  D:\ISO\WSL\ubuntu-18.04-server-[longname].tar.xz     Where image to install  
+-s  create shortcut to desktop  #Option
+-v  version ( =2 )
 
 ## Run distribution
-$ LxRunOffline l
-list of wsl name
 
 $ LxRunOffline r -n ubuntuAlpha
+
 
 ## Run normal user in WSL
 
@@ -47,6 +47,8 @@ id
 LxRunOffline su -n ubuntuAlpha -v 1000   
 
 ## Uninstall  
+
+lxrunoffline ui -n <name-of-distro>
 
 ## Move  
 ```
@@ -86,11 +88,11 @@ PS C:\wsl> .\LxRunOffline.exe export -n Ubuntu -f c:/tmp/Ubuntu.tar.gz
 
 PS C:\wsl> .\LxRunOffline.exe install -n ubuntu1 -d C:\wsl\ubuntu1 -f d:\bkp\Ubuntu.tar.gz
                                              |            |                       |
-                                             |            |                       |________________ location and name of your WSL backup
+                                             |            |                       |________________ location and name of your WSL backup .tar file
                                              |            |  
                                              |            |_________________ Install when location is new, Restore when location is the same
                                              |
-                                             |_______________ Name of new WSL
+                                             |_______________ Name of new WSL - Make sure unique name
 
 
 
