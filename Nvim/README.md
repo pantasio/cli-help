@@ -1,4 +1,4 @@
-all cli script working with Linux       
+<!-- all cli script working with Linux        -->
 
 <!-- https://gist.github.com/subfuzion/7d00a6c919eeffaf6d3dbf9a4eb11d64       -->
 <!-- https://kipalog.com/posts/Di-cu-tu-Sublime-Text-sang-VIM         -->
@@ -38,6 +38,13 @@ step2:
 step3:  
     p           Paste after cursor  
     P           Paste before cursor  
+    o
+<!-- Something will change  -->
+
+
+
+
+
 
 
 
